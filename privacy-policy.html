@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Google Enhanced</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f1ea;
+      --card: #fffdf8;
+      --text: #1f1f1f;
+      --muted: #5d5d5d;
+      --border: #dfd8ca;
+      --accent: #1765cc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(23, 101, 204, 0.08), transparent 36%),
+        linear-gradient(180deg, #f7f3eb 0%, var(--bg) 100%);
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: 32px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.08);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0 0 16px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 1.2rem;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+    }
+
+    p.meta,
+    .muted {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 22px;
+      margin: 10px 0 0;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy for Google Enhanced</h1>
+    <p class="meta">Effective date: March 11, 2026</p>
+
+    <p>
+      Google Enhanced is a Chrome extension that removes Google homepage doodles and share buttons,
+      replaces the Chrome new tab page with a customizable page, and provides related interface
+      controls. This policy explains what data the extension handles, how it is used, and whether
+      it is shared.
+    </p>
+
+    <h2>What data the extension handles</h2>
+    <ul>
+      <li>
+        Chrome profile email address, if available through the <code>chrome.identity</code> API,
+        to show the signed-in account chip on the custom new tab page.
+      </li>
+      <li>
+        Most visited sites from the <code>chrome.topSites</code> API to create initial shortcut
+        tiles on the custom new tab page.
+      </li>
+      <li>
+        User-provided content and settings stored locally, such as custom shortcuts, uploaded
+        background images, custom avatar images, doodle preferences, theme choices, and UI state.
+      </li>
+      <li>
+        Limited page context needed to apply the extension's UI changes on supported Google and
+        YouTube pages. The extension modifies page appearance locally in the browser and does not
+        send page content to the developer.
+      </li>
+    </ul>
+
+    <h2>How the data is used</h2>
+    <ul>
+      <li>To display the signed-in account chip and avatar options on the custom new tab page.</li>
+      <li>To show initial shortcut suggestions based on the browser's most visited sites.</li>
+      <li>To save user customization choices and restore them across browser sessions.</li>
+      <li>To enable the extension's homepage and new tab interface features.</li>
+    </ul>
+
+    <h2>Where data is stored</h2>
+    <p>
+      Settings and user-provided content are stored locally in the browser using
+      <code>chrome.storage.local</code> and browser local storage. Google Enhanced does not send
+      this data to the developer's own servers.
+    </p>
+
+    <h2>Data sharing</h2>
+    <p>
+      Google Enhanced does not sell user data and does not share user data with data brokers,
+      advertisers, or analytics providers.
+    </p>
+    <p>
+      Some extension features interact directly with Google-owned services from the user's browser.
+      For example, the account chip and Google services UI may request resources from Google
+      domains. When a user opens a search, image search, Google app, or shortcut destination, the
+      browser connects directly to the relevant site selected by the user.
+    </p>
+
+    <h2>Data retention</h2>
+    <p>
+      Locally stored settings and user-provided content remain on the device until the user changes
+      them, clears extension storage, resets the browser profile, or uninstalls the extension.
+    </p>
+
+    <h2>User controls</h2>
+    <ul>
+      <li>Users can edit or remove shortcuts at any time.</li>
+      <li>Users can replace or clear custom backgrounds and custom avatar images at any time.</li>
+      <li>Users can sign out of the local account chip display from the extension UI.</li>
+      <li>Users can remove the extension to delete its locally stored data from Chrome.</li>
+    </ul>
+
+    <h2>Children's privacy</h2>
+    <p>
+      Google Enhanced is not directed to children and is not intended for use by children under 13.
+    </p>
+
+    <h2>Chrome Web Store Limited Use statement</h2>
+    <p>
+      The use of information received from Google APIs will adhere to the Chrome Web Store User
+      Data Policy, including the Limited Use requirements.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For privacy questions or support requests, use the support contact listed on this item's
+      Chrome Web Store page.
+    </p>
+  </main>
+</body>
+</html>
